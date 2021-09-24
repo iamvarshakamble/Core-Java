@@ -1,0 +1,26 @@
+class Plane{
+String Src_name="Bengaluru";
+String Des_name="Hyderabad";
+double Tick_price=10000.000d;
+
+static void planeName(){
+String planename="Jet Airways";
+System.out.println("The Name of The plane is "+planename);
+typeClass();
+}
+
+static void typeClass(){
+String typeclass="Business Class";
+System.out.println("Class is "+typeclass);
+Food();
+}
+
+static void Food(){
+boolean food="true";
+System.out.println("Availability of food is "+food);
+}
+
+public static void main(String args[]){
+planeName();
+}
+}
