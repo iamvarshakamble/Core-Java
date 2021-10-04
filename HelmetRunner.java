@@ -24,7 +24,7 @@ public static void main(String args[]){
 	
 	h.protect();
 	System.out.println();
-	h1.protect();
+	h1.precaution();
 	System.out.println();
 	h2.protect();
 	
