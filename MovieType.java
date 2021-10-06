@@ -1,0 +1,3 @@
+enum MovieType{
+	PREMIUM, CLASSIC, GOLD, PLATINUM;
+}

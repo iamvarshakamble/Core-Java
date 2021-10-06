@@ -1,7 +1,7 @@
 class Currency{
 	String name;
 	Country country;
-	String value;
+	String+ value;
 	
 	void displayDetails(){
 		System.out.println("Details of Currency");

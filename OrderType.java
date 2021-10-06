@@ -1,0 +1,3 @@
+enum OrderType{
+TAKEAWAY, DELIVERY, DINEIN;
+}
