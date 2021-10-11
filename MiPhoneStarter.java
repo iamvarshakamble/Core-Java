@@ -9,7 +9,7 @@ class MiPhoneStarter{
 		System.out.println(mi.price);
 		mi.setColor("Moonlight Black");
 		System.out.println(mi.color);
-		mi.setImei(18999);
+		mi.setImei(18999978969869l);
 		System.out.println(mi.imei);
 		PhonePay1 pay=new PhonePay1();
 		mi.setPhonepay(pay);

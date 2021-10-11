@@ -1,9 +1,8 @@
 class MiPhone{
-	
 	String brand;
 	double price;
 	String color;
-	int imei;
+	long imei;
 	PhonePay1 phonePay;
 	
 	void setBrand(String brand){
@@ -18,7 +17,7 @@ class MiPhone{
 		this.color=color;
 	}
 	
-	void setImei(int imei){
+	void setImei(long imei){
 		this.imei=imei;
 	}
 	
