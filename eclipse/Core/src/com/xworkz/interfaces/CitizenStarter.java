@@ -8,6 +8,7 @@ import com.xworkz.interfaces.hostel.TrafficRule;
 import com.xworkz.interfaces.hostel.VotingRule;
 
 public class CitizenStarter {
+
 	public static void main(String[] args) {
 		TrafficRule trafficRule=new IndianCitizen("Varsha",Address.BENGALURU);
 		 trafficRule.LicenseNo();

@@ -3,7 +3,7 @@ package com.xworkz.interfaces.hostel;
 import com.xworkz.interfaces.constants.Address;
 
 public class IndianCitizen implements VotingRule, TrafficRule, MarriageRule{
-	
+
 	private String name;
 	private Address address;
 	
@@ -16,42 +16,48 @@ public class IndianCitizen implements VotingRule, TrafficRule, MarriageRule{
 	public void displayDetails() {
 		System.out.println(this.name+" "+this.address);
 	}
-
-	@Override
-	public boolean validAge(char gender, int age) {
-		System.out.println("invoked validAge");
-		System.out.println(gender+" "+age);
-		return true;
-	}
-
-	@Override
-	public boolean validLicence() {
-		System.out.println("invoked validLicence");
-		return true;
-	}
-
-	@Override
-	public String LicenseNo() {
-		System.out.println("invoked LicenseNo");
-		return "v6bt67ib";
-	}
-
-	@Override
-	public boolean validInsurance() {
-		System.out.println("invoked validInsurance");
-		return true;
-	}
-
+	
 	@Override
 	public int validAge() {
-		System.out.println("invoked validAge");
+		System.out.println("invoke validAge");
+		// TODO Auto-generated method stub
 		return 21;
 	}
 
 	@Override
 	public String validId() {
-		System.out.println("invoked validId");
+		System.out.println("invoke validId");
+		// TODO Auto-generated method stub
 		return "VoterID";
+	}
+
+	@Override
+	public boolean validAge(char gender, int age) {
+		System.out.println("invoke validAge");
+		System.out.println(gender+" "+age);
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean validLicence() {
+		System.out.println("invoke validLicence");
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public String LicenseNo() {
+		System.out.println("invoke LicenseNo");
+		// TODO Auto-generated method stub
+		return "drtdi67eku";
+	}
+
+	@Override
+	public boolean validInsurance() {
+		System.out.println("invoke validInsurance");
+		// TODO Auto-generated method stub
+		return true;
 	}
 
 }

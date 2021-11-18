@@ -1,6 +1,6 @@
 package com.xworkz.interfaces.hostel;
 
-public class AfricanCitizen implements VotingRule, TrafficRule, MarriageRule{
+public class AfricanCitizen implements VotingRule,TrafficRule,MarriageRule {
 
 	private String name;
 	private String stateName;
@@ -14,42 +14,41 @@ public class AfricanCitizen implements VotingRule, TrafficRule, MarriageRule{
 	public void displayDetails() {
 		System.out.println(this.name+" "+this.stateName);
 	}
-	
+
 	@Override
 	public boolean validAge(char gender, int age) {
-		System.out.println("invoked validAge");
-		System.out.println(gender+" "+age);
-		return true;
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
 	public boolean validLicence() {
-		System.out.println("invoked validLicence");
-		return true;
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
 	public String LicenseNo() {
-		System.out.println("invoked LicenseNo");
-		return "v6bt67ib";
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
 	public boolean validInsurance() {
-		System.out.println("invoked validInsurance");
-		return true;
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
 	public int validAge() {
-		System.out.println("invoked validAge");
-		return 21;
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
 	public String validId() {
-		System.out.println("invoked validId");
-		return "VoterID";
+		// TODO Auto-generated method stub
+		return null;
 	}
-	
+
 }
